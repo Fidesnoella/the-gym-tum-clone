@@ -22,14 +22,26 @@ const Navbar = () => {
                         </div>
                         <div className="flex gap-x-14 items-center">
                             <div>
-                                <ul className="flex text-sm font-bold leading-4 gap-6 cursor-pointer">
-                                    <li className="border-b-2 border-primary hover:border-white">NEWS AND EVENT</li>
-                                    <li>STUDIES</li>
-                                    <li>LIFELONG LEARNING</li>
-                                    <li>RESEARCH</li>
-                                    <li>INNOVATION</li>
-                                    <li>COMMUNITY</li>
-                                    <li>ABOUT TUM</li>
+                                <ul className="hidden xl:flex text-sm font-bold leading-4 gap-6 cursor-pointer">
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/news">NEWS AND EVENT</Link>
+                                    </li>
+                                    <li className="border-b-2 border-primary hover:border-white"><Link href="/studies">STUDIES</Link>
+                                    </li>
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/learning">LIFELONG LEARNING</Link>
+                                    </li>
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/research">RESEARCH</Link></li>
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/innovation">INNOVATION</Link>
+                                    </li>
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/community"> COMMUNITY</Link>
+                                    </li>
+                                    <li className="border-b-2 border-primary hover:border-white">
+                                        <Link href="/about">ABOUT TUM</Link>
+                                    </li>
                                 </ul>
                             </div>
                             <div>

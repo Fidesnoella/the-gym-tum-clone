@@ -17,7 +17,7 @@ import rss from '../../public/assets/rss.svg'
 const Footer = () => {
     return (
         <>
-            <footer className=" ">
+            <footer>
                 <section className="bg-[#0A2D57] text-white ">
                     <div className="px-6 xl:px-0 xl:mx-auto xl:max-w-[90rem] flex flex-col xl:flex xl:flex-row xl:justify-between  py-[56px]  border-b border-[#9ABCE4]">
                         <div className="flex gap-5">

@@ -9,7 +9,7 @@ import shop from '../../public/assets/Shop.jpeg';
 const ServicesSection = () => {
     return (
         <Wrapper>
-            <div className='grid grid-cols-3 gap-x-10 mt-10'>
+            <div className='grid lg:grid-cols-3 gap-x-10 mt-10'>
                 <Services image={Chakrabarti}
                     title={"Stay connected"}
                     paragraph={"Benefit from our worldwide network, make contacts and stay connected with your Alma Mater!"}

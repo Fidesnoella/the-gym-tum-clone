@@ -9,6 +9,7 @@ import TmuNumber from '../components/Sections/TmuNumber'
 import ServicesSection from '../components/Sections/ServicesSection'
 import Footer from '../components/Layout/Footer'
 import Giving from '../components/Sections/Giving'
+import AlumniStory from '../components/Sections/AlumniStory'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Drives />
       <TmuNumber />
       <Schools />
+      <AlumniStory />
       <ServicesSection />
       <Giving />
       <Footer />

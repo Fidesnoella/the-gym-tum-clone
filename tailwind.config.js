@@ -19,6 +19,7 @@ module.exports = {
         yellow: '#f7b11e',
         orange: '#b55ca5',
         lightGray: '#efedfc',
+        stone: '#ea7237',
       },
       padding: {
         "33": "8.3125rem",

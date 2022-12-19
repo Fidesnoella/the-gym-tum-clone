@@ -13,7 +13,7 @@ const News = () => {
                     <p className="text-2xl tracking-[0.2px]">News, research results and events: everything that enthuses people at our university.</p>
                     <Button style={"p-5 text-white mb-10 font-bold"}>SELL ALL</Button>
                 </div>
-                <div className="flex flex-col gap-y-12">
+                <div className="flex flex-row lg:flex-col gap-y-12">
                     <div className="flex gap-6">
                         {news.slice(0, 2).map((news, index) => <Card key={index} {...news} />)}
                     </div>
